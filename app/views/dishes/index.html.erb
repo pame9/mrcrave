@@ -2,6 +2,9 @@
 
 <table>
   <tr>
+    <th>Name</th>
+    <th>Title</th>
+    <th>Img</th>
     <th></th>
     <th></th>
     <th></th>
@@ -9,6 +12,9 @@
 
 <% @dishes.each do |dish| %>
   <tr>
+    <td><%= dish.name %></td>
+    <td><%= dish.title %></td>
+    <td><%= dish.img %></td>
     <td><%= link_to 'Show', dish %></td>
     <td><%= link_to 'Edit', edit_dish_path(dish) %></td>
     <td><%= link_to 'Destroy', dish, method: :delete, data: { confirm: 'Are you sure?' } %></td>

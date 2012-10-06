@@ -1,3 +1,3 @@
 class Dish < ActiveRecord::Base
-  # attr_accessible :title, :body
+  attr_accessible :img, :name, :title
 end
