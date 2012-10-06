@@ -8,11 +8,11 @@ require "instagram"
 
 enable :sessions
 
-CALLBACK_URL = "http://localhost:4567/oauth/callback"
+CALLBACK_URL = "http://localhost:3000/oauth/callback"
 
 Instagram.configure do |config|
-  config.client_id = "YOUR_CLIENT_ID"
-  config.client_secret = "YOUR_CLIENT_SECRET"
+  config.client_id = "75c57fd06f7e4eeb89c674ad329d6dde"
+  config.client_secret = "d4d4a2d7425947ef895547b312c1ff63"
 end
 
 get "/" do
