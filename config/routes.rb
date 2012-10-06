@@ -1,4 +1,6 @@
 Mrcrave::Application.routes.draw do
+  resources :dishes
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
